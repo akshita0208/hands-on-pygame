@@ -40,7 +40,7 @@ def move(self,food):
  def checkCollision(self):
  	if self.position[0]>490 or self.position[0]<0:
  	return 1
- elif self.position[1]>490 or self.position[1]<0:
+ elif self.position[1]>500 or self.position[1]<0:
  	return 1
  for bodyPart in self.body[1:]:
  	if self.position==bodyPart:
